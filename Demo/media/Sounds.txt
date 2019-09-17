@@ -1,0 +1,132 @@
+SOUND
+name btn_Line_1
+file btn_Line_1.wav
+
+SOUND
+name btn_Line_2
+file btn_Line_2.wav
+
+SOUND
+name btn_Line_3
+file btn_Line_3.wav
+
+SOUND
+name btn_Line_4
+file btn_Line_4.wav
+
+SOUND
+name btn_Line_5
+file btn_Line_5.wav
+
+SOUND
+name btn_Line_6
+file btn_Line_6.wav
+
+SOUND
+name btn_Line_7
+file btn_Line_7.wav
+
+SOUND
+name btn_Line_8
+file btn_Line_8.wav
+
+SOUND
+name btn_Line_9
+file btn_Line_9.wav
+
+
+SOUND
+name anims_Icon_1
+file anims_Icon_1.wav
+
+SOUND
+name anims_Icon_2
+file anims_Icon_2.wav
+
+SOUND
+name anims_Icon_3
+file anims_Icon_3.wav
+
+SOUND
+name anims_Icon_4
+file anims_Icon_4.wav
+
+SOUND
+name anims_Icon_5
+file anims_Icon_5.wav
+
+SOUND
+name anims_Icon_6
+file anims_Icon_6.wav
+
+SOUND
+name anims_Icon_7
+file anims_Icon_7.wav
+
+SOUND
+name anims_Icon_8
+file anims_Icon_8.wav
+
+SOUND
+name anims_Icon_9
+file anims_Icon_9.wav
+
+SOUND
+name anims_Icon_10
+file anims_Icon_10.wav
+
+SOUND
+name anims_Icon_11
+file anims_Icon_11.wav
+
+
+SOUND
+name alrt_WrongPress
+file alrt_WrongPress.wav
+
+SOUND
+name anim_BonusLoop
+file anim_BonusLoop.wav
+
+SOUND
+name anims_CreditIncrease
+file anims_CreditIncrease.wav
+
+
+SOUND
+name anims_Poof
+file anims_Poof.wav
+
+SOUND
+name btn_Press
+file btn_Press.wav
+
+SOUND
+name btn_IconReveal
+file btn_IconReveal.wav
+
+SOUND
+name btn_RevealAllSound
+file btn_RevealAllSound.wav
+
+
+SOUND
+name anims_Dance_1
+file anims_Dance_1.wav
+
+SOUND
+name anims_Dance_2
+file anims_Dance_2.wav
+
+SOUND
+name anims_Dance_3
+file anims_Dance_3.wav
+
+SOUND
+name anims_Dance_4
+file anims_Dance_4.wav
+
+SOUND
+name alrt_FreeTabs
+file alrt_FreeTabs.wav
+

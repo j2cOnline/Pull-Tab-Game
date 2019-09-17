@@ -1,0 +1,883 @@
+//
+//	Eugene George - Magic Touch Tabs
+//
+
+
+
+BITMAP
+NAME bg_MainScreen
+FILE bg_MainScreen.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_bg_MainScreen
+BITMAP bg_MainScreen
+FRAMESWIDE 1 1366
+FRAMESHIGH 1 768
+
+
+BITMAP
+NAME bg_MainScreen_ExtraSpins
+FILE bg_MainScreen_ExtraSpins.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_bg_MainScreen_ExtraSpins
+BITMAP bg_MainScreen_ExtraSpins
+FRAMESWIDE 1 1366
+FRAMESHIGH 1 768
+
+
+
+
+BITMAP
+NAME btn_RevealAll
+FILE btn_RevealAll.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_btn_RevealAll
+BITMAP btn_RevealAll
+FRAMESWIDE 2 339
+FRAMESHIGH 2 132
+
+
+
+BITMAP
+NAME btn_Continue
+FILE btn_Continue.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_btn_Continue
+BITMAP btn_Continue
+FRAMESWIDE 2 339	
+FRAMESHIGH 2 132
+
+
+BITMAP
+NAME btn_Denomination
+FILE btn_Denomination.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_btn_Denomination
+BITMAP btn_Denomination
+FRAMESWIDE 2 339
+FRAMESHIGH 2 191
+
+
+
+
+
+BITMAP
+NAME btn_Cashout
+FILE btn_Cashout.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_btn_Cashout
+BITMAP btn_Cashout
+FRAMESWIDE 2 152
+FRAMESHIGH 2 132
+
+
+BITMAP
+NAME btn_HelpOptions
+FILE btn_HelpOptions.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_btn_HelpOptions
+BITMAP btn_HelpOptions
+FRAMESWIDE 2 152
+FRAMESHIGH 2 132
+
+
+// ------------------------- Tabs & Icons ------------------------------------
+
+
+BITMAP
+NAME ovr_SlotIcons
+FILE ovr_SlotIcons.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_SlotIcons
+BITMAP ovr_SlotIcons
+FRAMESWIDE 5 176
+FRAMESHIGH 2 176
+
+
+BITMAP
+NAME ovr_SlotIcons_Win
+FILE ovr_SlotIcons_Win.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_SlotIcons_Win
+BITMAP ovr_SlotIcons_Win
+FRAMESWIDE 5 176
+FRAMESHIGH 2 176
+
+
+BITMAP
+NAME anim_Reveal
+FILE anim_Reveal.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_anim_Reveal
+BITMAP anim_Reveal
+FRAMESWIDE 2 181
+FRAMESHIGH 3 161
+
+
+
+BITMAP
+NAME ovr_MainScreen
+FILE ovr_MainScreen.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_MainScreen
+BITMAP ovr_MainScreen
+FRAMESWIDE 1 1024
+FRAMESHIGH 1 768
+
+
+BITMAP
+NAME ovr_MainScreen_ExtraSpins
+FILE ovr_MainScreen_ExtraSpins.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_MainScreen_ExtraSpins
+BITMAP ovr_MainScreen_ExtraSpins
+FRAMESWIDE 1 1024
+FRAMESHIGH 1 768
+
+BITMAP
+NAME ovr_FreeTabsSign
+FILE ovr_FreeTabsSign.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_FreeTabsSign
+BITMAP ovr_FreeTabsSign
+FRAMESWIDE 1 740
+FRAMESHIGH 1 363
+
+BITMAP
+NAME ovr_TotalWon
+FILE ovr_TotalWon.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_TotalWon
+BITMAP ovr_TotalWon
+FRAMESWIDE 1 745
+FRAMESHIGH 1 380
+
+
+//------------------ Animations -----------------------------------
+
+
+BITMAP
+NAME anim_MiniLogo
+FILE anim_MiniLogo.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_anim_MiniLogo
+BITMAP anim_MiniLogo
+FRAMESWIDE 3 79
+FRAMESHIGH 5 74
+
+
+BITMAP
+NAME anim_Win_1
+FILE anim_Win_1.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_anim_Win_1
+BITMAP anim_Win_1
+FRAMESWIDE 5 176
+FRAMESHIGH 3 176
+
+
+BITMAP
+NAME anim_Win_2
+FILE anim_Win_2.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_anim_Win_2
+BITMAP anim_Win_2
+FRAMESWIDE 5 176
+FRAMESHIGH 3 176
+
+
+BITMAP
+NAME anim_Win_3
+FILE anim_Win_3.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_anim_Win_3
+BITMAP anim_Win_3
+FRAMESWIDE 5 176
+FRAMESHIGH 3 176
+
+
+BITMAP
+NAME anim_Win_4
+FILE anim_Win_4.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_anim_Win_4
+BITMAP anim_Win_4
+FRAMESWIDE 5 176
+FRAMESHIGH 3 176
+
+
+BITMAP
+NAME anim_Win_5
+FILE anim_Win_5.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_anim_Win_5
+BITMAP anim_Win_5
+FRAMESWIDE 5 176
+FRAMESHIGH 3 176
+
+
+BITMAP
+NAME anim_Win_6
+FILE anim_Win_6.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_anim_Win_6
+BITMAP anim_Win_6
+FRAMESWIDE 5 176
+FRAMESHIGH 3 176
+
+
+
+//--------------------- Lines and Boxes -------------------------
+
+
+BITMAP
+NAME ovr_LineLights
+FILE ovr_LineLights.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_LineLights
+BITMAP ovr_LineLights
+FRAMESWIDE 18 55
+FRAMESHIGH 2 465
+
+
+BITMAP
+NAME ovr_Line_1_Box
+FILE ovr_Line_1_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_1_Box
+BITMAP ovr_Line_1_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_2_Box
+FILE ovr_Line_2_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_2_Box
+BITMAP ovr_Line_2_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+
+BITMAP
+NAME ovr_Line_3_Box
+FILE ovr_Line_3_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_3_Box
+BITMAP ovr_Line_3_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+
+BITMAP
+NAME ovr_Line_3_Box
+FILE ovr_Line_3_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_3_Box
+BITMAP ovr_Line_3_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+
+BITMAP
+NAME ovr_Line_4_Box
+FILE ovr_Line_4_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_4_Box
+BITMAP ovr_Line_4_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+
+BITMAP
+NAME ovr_Line_5_Box
+FILE ovr_Line_5_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_5_Box
+BITMAP ovr_Line_5_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+
+BITMAP
+NAME ovr_Line_6_Box
+FILE ovr_Line_6_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_6_Box
+BITMAP ovr_Line_6_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+
+BITMAP
+NAME ovr_Line_7_Box
+FILE ovr_Line_7_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_7_Box
+BITMAP ovr_Line_7_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+
+BITMAP
+NAME ovr_Line_8_Box
+FILE ovr_Line_8_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_8_Box
+BITMAP ovr_Line_8_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+
+BITMAP
+NAME ovr_Line_9_Box
+FILE ovr_Line_9_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_9_Box
+BITMAP ovr_Line_9_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_10_Box
+FILE ovr_Line_10_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_10_Box
+BITMAP ovr_Line_10_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_11_Box
+FILE ovr_Line_11_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_11_Box
+BITMAP ovr_Line_11_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_12_Box
+FILE ovr_Line_12_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_12_Box
+BITMAP ovr_Line_12_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_13_Box
+FILE ovr_Line_13_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_13_Box
+BITMAP ovr_Line_13_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_14_Box
+FILE ovr_Line_14_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_14_Box
+BITMAP ovr_Line_14_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_15_Box
+FILE ovr_Line_15_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_15_Box
+BITMAP ovr_Line_15_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_16_Box
+FILE ovr_Line_16_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_16_Box
+BITMAP ovr_Line_16_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_17_Box
+FILE ovr_Line_17_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_17_Box
+BITMAP ovr_Line_17_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_18_Box
+FILE ovr_Line_18_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_18_Box
+BITMAP ovr_Line_18_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_19_Box
+FILE ovr_Line_19_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_19_Box
+BITMAP ovr_Line_19_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_20_Box
+FILE ovr_Line_20_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_20_Box
+BITMAP ovr_Line_20_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_21_Box
+FILE ovr_Line_21_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_21_Box
+BITMAP ovr_Line_21_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_22_Box
+FILE ovr_Line_22_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_22_Box
+BITMAP ovr_Line_22_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_23_Box
+FILE ovr_Line_23_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_23_Box
+BITMAP ovr_Line_23_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_24_Box
+FILE ovr_Line_24_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_24_Box
+BITMAP ovr_Line_24_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+BITMAP
+NAME ovr_Line_25_Box
+FILE ovr_Line_25_Box.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_25_Box
+BITMAP ovr_Line_25_Box
+FRAMESWIDE 1 202
+FRAMESHIGH 1 178
+
+
+//---------- Lines ---------
+
+BITMAP
+NAME ovr_Line_1
+FILE ovr_Line_1.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_1
+BITMAP ovr_Line_1
+FRAMESWIDE 1 678
+FRAMESHIGH 1 688
+
+BITMAP
+NAME ovr_Line_2
+FILE ovr_Line_2.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_2
+BITMAP ovr_Line_2
+FRAMESWIDE 1 678
+FRAMESHIGH 1 688
+
+BITMAP
+NAME ovr_Line_3
+FILE ovr_Line_3.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_3
+BITMAP ovr_Line_3
+FRAMESWIDE 1 678
+FRAMESHIGH 1 688
+
+BITMAP
+NAME ovr_Line_4
+FILE ovr_Line_4.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_4
+BITMAP ovr_Line_4
+FRAMESWIDE 1 678
+FRAMESHIGH 1 688
+
+BITMAP
+NAME ovr_Line_5
+FILE ovr_Line_5.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_5
+BITMAP ovr_Line_5
+FRAMESWIDE 1 678
+FRAMESHIGH 1 688
+
+BITMAP
+NAME ovr_Line_6
+FILE ovr_Line_6.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_6
+BITMAP ovr_Line_6
+FRAMESWIDE 1 678
+FRAMESHIGH 1 688
+
+BITMAP
+NAME ovr_Line_7
+FILE ovr_Line_7.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_7
+BITMAP ovr_Line_7
+FRAMESWIDE 1 678
+FRAMESHIGH 1 688
+
+BITMAP
+NAME ovr_Line_8
+FILE ovr_Line_8.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_8
+BITMAP ovr_Line_8
+FRAMESWIDE 1 678
+FRAMESHIGH 1 688
+
+BITMAP
+NAME ovr_Line_9
+FILE ovr_Line_9.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_ovr_Line_9
+BITMAP ovr_Line_9
+FRAMESWIDE 1 678
+FRAMESHIGH 1 688
+
+
+
+
+// --------------------- Help / Options / Pay Table -------------------------
+
+
+BITMAP
+NAME bg_Help
+FILE bg_Help.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_bg_Help
+BITMAP bg_Help
+FRAMESWIDE 1 1366
+FRAMESHIGH 1 768
+
+
+BITMAP
+NAME bg_Pays
+FILE bg_Pays.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_bg_Pays
+BITMAP bg_Pays
+FRAMESWIDE 1 1366
+FRAMESHIGH 1 768
+
+
+BITMAP
+NAME bg_WinningPatterns
+FILE bg_WinningPatterns.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_bg_WinningPatterns
+BITMAP bg_WinningPatterns
+FRAMESWIDE 1 1366
+FRAMESHIGH 1 768
+
+
+BITMAP
+NAME btn_Payouts
+FILE btn_Payouts.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_btn_Payouts
+BITMAP btn_Payouts
+FRAMESWIDE 2 152
+FRAMESHIGH 2 132
+
+BITMAP
+NAME btn_Help
+FILE btn_Help.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_btn_Help
+BITMAP btn_Help
+FRAMESWIDE 2 152
+FRAMESHIGH 2 132
+
+
+BITMAP
+NAME btn_Back
+FILE btn_Back.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_btn_Back
+BITMAP btn_Back
+FRAMESWIDE 2 339
+FRAMESHIGH 2 132
+
+
+BITMAP
+NAME btn_Audio
+FILE btn_Audio.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_btn_Audio
+BITMAP btn_Audio
+FRAMESWIDE 2 143
+FRAMESHIGH 2 131
+
+
+BITMAP
+NAME btn_WinningPatterns
+FILE btn_WinningPatterns.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_btn_WinningPatterns
+BITMAP btn_WinningPatterns
+FRAMESWIDE 2 152
+FRAMESHIGH 2 132
+
+
+BITMAP
+NAME anim_WholeTabPull_Small
+FILE anim_WholeTabPull_Small.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_anim_WholeTabPull_Small
+BITMAP anim_WholeTabPull_Small
+FRAMESWIDE 3 608	
+FRAMESHIGH 3 610
+
+BITMAP
+NAME anim_AnySameWin
+FILE anim_AnySameWin.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_anim_AnySameWin
+BITMAP anim_AnySameWin
+FRAMESWIDE 3 682
+FRAMESHIGH 4 366
+
+BITMAP
+NAME blur
+FILE blur.png
+TRANS False
+TRANSCOLOR
+
+FRAMEDTEXTURE
+NAME ftx_blur
+BITMAP blur
+FRAMESWIDE 11 176
+FRAMESHIGH 5 176
+

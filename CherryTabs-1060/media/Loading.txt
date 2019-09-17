@@ -1,0 +1,42 @@
+// LOADING STATE
+//
+//
+
+BITMAP
+name bmp_backgroundLoading
+file bg_IntroScreen.png
+transparent False
+transColor
+
+FRAMEDTEXTURE
+name ftx_backgroundLoading
+bitmap bmp_backgroundLoading
+FRAMESWIDE 1 1366
+FRAMESHIGH 1 768
+
+FONT
+name fnt_labelFont
+face Arial
+size 16
+bold True 
+
+PICTUREBOX
+name pic_backgroundLoading
+Alignment XCenter, YCenter
+x 0.5
+y 0.5
+bitmap ftx_backgroundLoading
+
+TEXTLABEL
+name lbl_action
+Alignment Left, Top
+x 0.5
+y 0.5
+Font fnt_labelFont
+fontAlignment XCenter, YCenter
+textColor 255 255 255
+shadow True
+bgColor 
+backgroundRect
+picBoxTexture
+text ...Loading...

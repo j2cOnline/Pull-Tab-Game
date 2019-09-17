@@ -1,0 +1,39 @@
+
+BITMAP
+name bmpCashOutScreen
+file cashOut_Screen.png
+trans False
+transColor
+
+FRAMEDTEXTURE
+name ftxCashOutScreen
+bitmap bmpCashOutScreen
+framesWide 1 1024
+framesHigh 1 768
+
+PICTUREBOX
+name picCashOutScreen
+Alignment XCenter, YCenter
+x 0.5
+y 0.5
+bitmap ftxCashOutScreen
+
+FONT
+name fontCashOut
+face DigifaceWide
+size 72
+bold True
+
+TEXTLABEL
+name lblCashOut
+Alignment Left, Top
+x 0.550
+y 0.625
+Font fontCashOut
+fontAlignment XCenter, YCenter
+textColor 255 255 255
+shadow True
+bgColor 
+backgroundRect
+picBoxTexture
+text ...Loading...

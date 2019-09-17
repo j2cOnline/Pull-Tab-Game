@@ -1,0 +1,84 @@
+//
+//	Eugene George - Around The World Bonus Bingo
+//
+
+
+
+FONT
+NAME balance_font
+FACE Columbus
+SIZE 18
+BOLD False
+
+
+
+FONT
+NAME won_font
+FACE Columbus
+SIZE 18
+BOLD False
+
+
+FONT
+NAME cost_font
+FACE Columbus
+SIZE 18
+BOLD False
+
+FONT
+NAME lineBet_font
+FACE Columbus
+SIZE 14
+BOLD False
+
+FONT
+NAME denomination_font
+FACE Columbus
+SIZE 36
+BOLD False
+
+
+FONT
+NAME gameover_font
+FACE Columbus
+SIZE 18
+BOLD False
+
+
+FONT
+NAME freeTabsLabel_font
+FACE Columbus
+SIZE 30
+BOLD False
+
+FONT
+NAME TabsNo_font
+FACE Columbus
+SIZE 36
+BOLD False
+
+
+FONT
+NAME FreeTabsSign_font
+FACE Columbus
+SIZE 70
+BOLD False
+
+FONT
+NAME LineAmount_font
+FACE Columbus
+SIZE 16
+BOLD False
+
+FONT
+NAME TabNumber_font
+FACE Columbus
+SIZE 14
+BOLD False
+
+FONT
+NAME Paytable_font
+FACE Columbus
+SIZE 15
+BOLD False
+
