@@ -19,26 +19,21 @@
  */
 
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
-using CoreUtilities;
 using System.Reflection;
+using System.Windows.Forms;
 
 
 namespace PlayerAudit1063
 {
     public partial class PlayData : Form
     {
-        public static WEBService.Service service           = null;
-        public static WEBService.PINs curPIN               = null;
-        public static WEBService.Sales curSale             = null;
+        public static WEBService.Service service = null;
+        public static WEBService.PINs curPIN = null;
+        public static WEBService.Sales curSale = null;
         public static WEBService.Redemptions curRedemption = null;
-        public static WEBService.Plays curPlay             = null;
-        public static WEBService.InstalledGames instGame   = null;
+        public static WEBService.Plays curPlay = null;
+        public static WEBService.InstalledGames instGame = null;
 
         Font fntLg = new Font("Arial", 20, FontStyle.Bold);
         Font fntMd = new Font("Arial", 12, FontStyle.Regular);
@@ -67,7 +62,7 @@ namespace PlayerAudit1063
                 // don't do anything but catch exception
             }
         }
-                
+
 
         /// <summary>
         /// Constructor.
@@ -85,7 +80,7 @@ namespace PlayerAudit1063
         /// <param name="e"></param>
         private void PlayData_Load(object sender, EventArgs e)
         {
-            
+
         }
 
 
@@ -99,13 +94,13 @@ namespace PlayerAudit1063
             if (Visible)
             {
                 // Load Bingo Service
-                service         = new WEBService.Service();
+                service = new WEBService.Service();
                 service.Timeout = 300000;
-                string tmpErr   = service.lastError();
+                string tmpErr = service.lastError();
 
                 // Must get installed game data
                 instGame = service.getInstalledGameData(curPlay.gameSysID);
-                tmpErr   = service.lastError();
+                tmpErr = service.lastError();
 
                 // must get installedGame data
                 instGame = service.getInstalledGameData(curPlay.gameSysID);
@@ -123,10 +118,10 @@ namespace PlayerAudit1063
                     tabNo = parts[2];
                     winnings = decimal.Parse(parts[3]);
                     tabPrice = decimal.Parse(parts[4]);
-                    
+
                     lblTabNo.Text = "Tab#: " + parts[2];
                     lblWinnings.Text = "Winnings: " + winnings.ToString("C");
-                    lblTabPrice.Text = "Tab Price: " + tabPrice.ToString("C") ;
+                    lblTabPrice.Text = "Tab Price: " + tabPrice.ToString("C");
 
                     pnlTab.Controls.Clear();
 
@@ -134,30 +129,30 @@ namespace PlayerAudit1063
 
                     for (int i = 0; i < iconsPerTab; i++)
                     {
-                        
+
                         int iconNo = int.Parse(parts[i + 5]) + 1;
                         msg += iconNo.ToString() + ",";
 
                         String picFile = "ovr_AuditSlot_" + iconNo.ToString() + ".png";
                         PictureBox pic = new PictureBox();
-                            
+
                         pic.Image = Bitmap.FromStream(Assembly.GetExecutingAssembly()
                                .GetManifestResourceStream("PlayerAudit1063.images." + picFile));
 
                         pnlTab.Controls.Add(pic);
-                        pic.Left = (i % 3)*70;
-                        pic.Top = (i/3) * 65;
+                        pic.Left = (i % 3) * 70;
+                        pic.Top = (i / 3) * 65;
                         pic.Width = 60;
                         pic.Height = 55;
                     }
-                    msg+= "\r\nwin lines: \r\n";
+                    msg += "\r\nwin lines: \r\n";
 
                     int shift = 5 + iconsPerTab;
                     int remaining = 8;
-                    
+
 
                     pnlWonPatterns.Controls.Clear();
-                    
+
                     int curPat = 1;
                     int posIdx = 0;
                     winAmt = new decimal[remaining];
@@ -187,11 +182,11 @@ namespace PlayerAudit1063
 
                             lblAmt.Text = patAmt.ToString("C");
                             lblAmt.AutoSize = true;
-                            
+
                             pnlWonPatterns.Controls.Add(lblAmt);
                             lblAmt.Left = ((posIdx % 5) * 110) + 55;
                             lblAmt.Top = ((posIdx / 5) * 67) + 20;
-                            
+
                             posIdx++;
                         }
                         curPat++;
@@ -203,10 +198,10 @@ namespace PlayerAudit1063
                     decimal bonusWon = decimal.Parse(parts[remaining + shift + 1]);
                     lblBonus.Text = "";
 
-                    if (bonusWon > 0) 
+                    if (bonusWon > 0)
                         lblBonus.Text = "Any Same Symbol Win: " + bonusWon.ToString("C");
                     if (ftWon > 0)
-                        lblBonus.Text += " Free Tabs Won: "+ftWon.ToString();
+                        lblBonus.Text += " Free Tabs Won: " + ftWon.ToString();
                 }
                 catch (Exception ex)
                 {
@@ -230,7 +225,7 @@ namespace PlayerAudit1063
         /// </summary>
         private void assignClassComponents()
         {
-            
+
         }
 
 
@@ -243,11 +238,11 @@ namespace PlayerAudit1063
 
         }
 
-        
+
 
 
         #region Printing
-        
+
         private void prtPlayDoc_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
             if (prtPlayDoc.PrinterSettings.IsValid == false)
@@ -291,17 +286,17 @@ namespace PlayerAudit1063
             y = Draw2ItemRightAligned("Tab No. ", tabNo, y, fntSm, brushDark, width, x, e.Graphics);
             y = Draw2ItemRightAligned("Tab Price:", tabPrice.ToString("C"), y, fntSm, brushDark, width, x, e.Graphics);
             y = Draw2ItemRightAligned("Play End Balance", curPlay.balance.ToString("C"), y, fntSm, brushDark, width, x, e.Graphics);
-            
+
             y += 15;
             y = DrawTextHorizontalCentered("Patterns Won", y, fntMd, brushDark, width, x, e.Graphics);
             y += 10;
 
             for (int i = 0; i < winAmt.Length; i++)
             {
-                if(winAmt[i]>0)
-                    y = Draw2ItemRightAligned("Pattern " + (i+1).ToString(), winAmt[i].ToString("C"), y, fntSm, brushDark, width, x, e.Graphics);
+                if (winAmt[i] > 0)
+                    y = Draw2ItemRightAligned("Pattern " + (i + 1).ToString(), winAmt[i].ToString("C"), y, fntSm, brushDark, width, x, e.Graphics);
             }
-            
+
         }
 
 

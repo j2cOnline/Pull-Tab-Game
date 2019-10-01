@@ -26,7 +26,7 @@ namespace BreakTheBankTabs1063.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://192.168.0.5/Service.asmx")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://192.168.1.252/Service.asmx")]
         public string MagicTouchTabs1034_WEBService_Service {
             get {
                 return ((string)(this["MagicTouchTabs1034_WEBService_Service"]));

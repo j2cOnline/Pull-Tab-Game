@@ -52,7 +52,8 @@
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>BreakTheBankTabs1063.Program</StartupObject>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>AB0D6AEEB088DFE6546361C00D460C2A555C10B7</ManifestCertificateThumbprint>
@@ -207,6 +208,9 @@
     <None Include="Web References\WEBService\EGMTerminals.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
+    <None Include="Web References\WEBService\Event.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
     <None Include="Web References\WEBService\GameCardsCount.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
@@ -355,10 +359,10 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="http://192.168.0.5/Service.asmx">
+    <WebReferenceUrl Include="http://192.168.1.252/Service.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\WEBService\</RelPath>
-      <UpdateFromURL>http://192.168.0.5/Service.asmx</UpdateFromURL>
+      <UpdateFromURL>http://192.168.1.252/Service.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>

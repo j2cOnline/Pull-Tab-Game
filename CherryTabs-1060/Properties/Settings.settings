@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="MagicTouchTabs1034_WEBService_Service" Type="(Web Service URL)" Scope="User">
-      <Value Profile="(Default)">http://192.168.0.5/Service.asmx</Value>
+      <Value Profile="(Default)">http://192.168.1.252/Service.asmx</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -66,7 +66,7 @@ namespace TestGameMenuBaseDLL
             clearBtns();
 
             // Check for GameMenuBase.DLL in game directory
-            fullPathToDLL = @"C:\Users\Eugene George\Documents\Visual Studio 2010\Projects\Z Systems2\CherryTabs\CherryTabs-1063\GameMenuBase1063\bin\Debug\GameMenuBase1063.dll";
+            fullPathToDLL = @"C:\Users\Justin\Desktop\BreakTheBankTabs -1063\CherryTabs-1060\CherryTabs-1060\GameMenuBase1060\bin\Debug\GameMenuBase1063.dll";
 
             if (File.Exists(fullPathToDLL))
             {
