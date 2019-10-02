@@ -7,7 +7,7 @@
 FONT
 NAME balance_font
 FACE Columbus
-SIZE 24
+SIZE 28
 BOLD False
 
 
@@ -15,14 +15,14 @@ BOLD False
 FONT
 NAME won_font
 FACE Columbus
-SIZE 24
+SIZE 28
 BOLD False
 
 
 FONT
 NAME cost_font
 FACE Columbus
-SIZE 18
+SIZE 20
 BOLD False
 
 FONT
@@ -48,8 +48,8 @@ BOLD False
 FONT
 NAME freeTabsLabel_font
 FACE Columbus
-SIZE 30
-BOLD False
+SIZE 36
+BOLD True
 
 FONT
 NAME TabsNo_font
@@ -67,13 +67,13 @@ BOLD False
 FONT
 NAME LineAmount_font
 FACE Columbus
-SIZE 16
+SIZE 18
 BOLD False
 
 FONT
 NAME TabNumber_font
 FACE Columbus
-SIZE 18
+SIZE 22
 BOLD False
 
 FONT

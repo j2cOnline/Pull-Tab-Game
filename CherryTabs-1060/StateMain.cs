@@ -811,8 +811,8 @@ namespace BreakTheBankTabs1063
                 strDenom = ((int)(TabPrices[tabPricesIdx] * 100)).ToString() + "¢";
             if (btnDenomination.Visible)
             {
-                int x = btnDenomination.X+90;
-                int y = btnDenomination.Y+64;
+                int x = btnDenomination.X+98;
+                int y = btnDenomination.Y+60;
 
                 if (btnDenomination.Enable)
                 {
@@ -890,7 +890,7 @@ namespace BreakTheBankTabs1063
         public void startFreeTabsMode()
         {
 
-            lblFreeTabs.MoveAbsolute(1204, 62);
+            //lblFreeTabs.MoveAbsolute(1204, 62);
 
             if (freeTabsMode == false)
             {
@@ -914,7 +914,7 @@ namespace BreakTheBankTabs1063
 
         public void endFreeTabsMode()
         {
-            lblFreeTabs.MoveAbsolute(1236, 65);
+            //lblFreeTabs.MoveAbsolute(1204, 62);
 
             freeTabsMode = false;
             transitionDone = false;
